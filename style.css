@@ -1,0 +1,21 @@
+.heading{
+    font-size:30px;
+    width:100%;
+    box-shadow:5px 10px 15px darkgoldenrod;
+}
+.heading_div{
+    float:none;
+    background:linear-gradient(#8CB5DE 0%,#7D7B01 100%);
+    padding:10px;
+    border-radius:20px;
+    color:lime;
+    box-shadow:5px 10px 15px gold;
+}
+.heading_div2{
+    font-size:25px;
+    background:linear-gradient(#650270 0%,#E2E67C 100%);
+    color:darkblue;
+}
+.member,.accuracy{
+    font-size:200%;
+}
