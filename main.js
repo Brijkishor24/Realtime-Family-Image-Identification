@@ -2,12 +2,12 @@
 function preload(){}
 
 function setup(){
-    canvas=createCanvas(700,800);
+    canvas=createCanvas(600,600);
     canvas.center();
     video=createCapture(VIDEO);
     video.hide();
 }
 
 function draw() {
-    image(video,15,300,700,800);
+    image(video,0,0,600,600);
 }

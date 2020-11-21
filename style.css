@@ -2,6 +2,10 @@
     font-size:30px;
     width:100%;
     box-shadow:5px 10px 15px darkgoldenrod;
+    animation:Background-color 5s infinite;
+}@keyframes Background-color{
+    from{background-color: rebeccapurple;}
+    to{background-color: teal;}
 }
 .heading_div{
     float:none;
@@ -15,7 +19,25 @@
     font-size:25px;
     background:linear-gradient(#650270 0%,#E2E67C 100%);
     color:darkblue;
+    animation:Text-Color 5s infinite;
+}@keyframes Text-Color{
+    from{color:darkblue;}
+    to{color:darkviolet;}
 }
 .member,.accuracy{
     font-size:200%;
+}
+canvas{
+    border:10px ridge darkcyan;
+    margin-top:150px;
+    animation:border-color 5s infinite;
+}@keyframes border-color{
+    from{border-color: crimson;}
+    to{border-color: darkgoldenrod;}
+}
+.copy_footer_div{
+    font-size:20px;
+    text-align: center;
+    background-color:rgb(135, 92, 205);
+    margin-top:700px;
 }
