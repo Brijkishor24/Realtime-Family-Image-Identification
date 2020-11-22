@@ -4,8 +4,8 @@
     box-shadow:5px 10px 15px darkgoldenrod;
     animation:Background-color 5s infinite;
 }@keyframes Background-color{
-    from{background-color: rebeccapurple;}
-    to{background-color: teal;}
+    from{background:linear-gradient(#B8CC66 0%,#992B87 100%);}
+    to{background:linear-gradient(#DEAD3A 0%,#122678 100%);}
 }
 .heading_div{
     float:none;
@@ -40,4 +40,12 @@ canvas{
     text-align: center;
     background-color:rgb(135, 92, 205);
     margin-top:700px;
+}
+body{
+    animation:Background-color 5s infinite;
+}@keyframes Background-color{
+    from{background-image:url(Background.jpg);}
+    to{background-image:url(Background2.jpg);}
+    to{background-image:url(Background3.jpg);}
+    to{background-image:url(Background4.jpg);}
 }
