@@ -46,6 +46,8 @@ body{
 }@keyframes Background-color{
     from{background-image:url(Background.jpg);}
     to{background-image:url(Background2.jpg);}
+    from{background-image:url(Background2.jpg);}
     to{background-image:url(Background3.jpg);}
+    from{background-image:url(Background3.jpg);}
     to{background-image:url(Background4.jpg);}
 }
