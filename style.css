@@ -1,9 +1,10 @@
 .heading{
-    font-size:30px;
+    font-size:30px !important;
     width:100%;
+    height:20%;
     box-shadow:5px 10px 15px darkgoldenrod;
-    animation:Background-color 5s infinite;
-}@keyframes Background-color{
+    animation:Background-color2 5s infinite;
+}@keyframes Background-color2{
     from{background:linear-gradient(#B8CC66 0%,#992B87 100%);}
     to{background:linear-gradient(#DEAD3A 0%,#122678 100%);}
 }
